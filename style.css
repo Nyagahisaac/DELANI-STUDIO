@@ -16,7 +16,7 @@
 }
 .home_text{
     position: absolute;
-    transform: translate(75%, 85% );
+    transform: translate(75%, 100% );
     text-align: center;
     line-height: 50px;
     color: #fff;
@@ -32,3 +32,25 @@ h1{
     font-family: 'Gabriela', serif;
     font-weight: bold;
 }
+.mouse-click{
+    position: absolute;
+    top:90%;
+    left:50%;
+    text-align: center;
+    color: #fff;
+
+}
+ 
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+  
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  } 
+  .my-element {
+    --animate__infinite :	infinite ;
+  }
+  
