@@ -32,6 +32,9 @@ h1{
     font-family: 'Gabriela', serif;
     font-weight: bold;
 }
+p{
+  font-family: 'Gabriela', serif;
+}
 .mouse-click{
     position: absolute;
     top:90%;
@@ -53,4 +56,12 @@ h1{
   .my-element {
     --animate__infinite :	infinite ;
   }
-  
+  #about_us{
+    line-height: 20px;
+    letter-spacing: 0;
+  }
+  #about_us p{
+    font-size: 17px;
+    text-align: center;
+    color: black;
+  }
