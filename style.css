@@ -79,3 +79,12 @@ p{
    
   }
  
+  .services{
+    background-image: url(/images/service_image.jpg);
+    height: 55vh;
+    width: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: 0%;
+  }
+  
