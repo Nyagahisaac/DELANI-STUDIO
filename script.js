@@ -27,3 +27,10 @@ $(document).ready(function () {
     });
     
 });
+function submitInput(){
+    event.preventDefault();
+    var newName = document.getElementById('name').value
+    document.getElementById('message').innerHTML 
+    alert (newName  +   ',we have recieved your message .Thank you for reaching to us ')
+    
+};

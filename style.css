@@ -99,6 +99,11 @@ p{
   .services_text p{
     font-size: 19px;
   }
+  h2{
+    font-size: 20px;
+    font-family: 'Gabriela', serif;
+    font-weight: 900;
+  }
   #design{
     display: none;
   }
@@ -144,6 +149,7 @@ p{
   }
  
   .text{
+    
     position: absolute;
     top: 0;
     bottom: 0;
@@ -211,6 +217,8 @@ p{
  .form-group{
     box-sizing: border-box;
     font-size: 30px;
+    color: #fff;
+    font-weight: bold;
     
    
   }
@@ -232,10 +240,11 @@ p{
  
   .contact_text{
     text-align: center;
-    transform: translate(0%, 10%);
+    transform: translate(0%, 20%);
    
   }
    footer{
     margin-top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   } 
   
