@@ -81,7 +81,7 @@ p{
     text-align: center;
   }
   .services{
-    background-image: url(/images/service_image.jpg);
+    background-image: url(/DELANI-STUDIO/images/service_image.jpg);
     height: 55vh;
     width: 100% 100%;
     background-repeat: no-repeat;
@@ -191,7 +191,7 @@ p{
   /* contact section */
   .contact{
     margin-top: 50px;
-    background-image: url(/images/contact_image.jpg);
+    background-image: url(/DELANI-STUDIO/images/contact_image.jpg);
     height: 70vh;
     width: 100% 100%;
     background-size: 100%;
