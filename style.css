@@ -4,13 +4,14 @@
     box-sizing: border-box;
     padding:0;
     margin: 0;
-
+/* body section */
 }
 body{
   background-color:whitesmoke;
   padding: 0;
   margin: 0;
 }
+/* home section */
 .home{
      height: 100vh;
      width: 100% 100%;
@@ -51,10 +52,6 @@ p{
     color: #fff;
 
 }
-.services{
-  text-align: center;
-}
- 
 .animate__animated.animate__bounce {
     --animate-duration: 2s;
   }
@@ -67,6 +64,7 @@ p{
   .my-element {
     --animate__infinite :	infinite ;
   }
+  /* about us section */
   #about_us{
     line-height: 20px;
     letter-spacing: 0;
@@ -78,7 +76,10 @@ p{
     color: black;
    
   }
- 
+  /* services section */
+  .services{
+    text-align: center;
+  }
   .services{
     background-image: url(/images/service_image.jpg);
     height: 55vh;
@@ -98,6 +99,17 @@ p{
   .services_text p{
     font-size: 19px;
   }
+  #design{
+    display: none;
+  }
+ 
+  #development{
+    display: none;
+  }
+  #product{
+    display: none;
+  } 
+  /* skills section */
   .container{
     max-width: 1140px;
     width: 100%;
@@ -108,7 +120,7 @@ p{
   }
   
   .skills{
-    /* margin-top: 50px; */
+    
     text-align: center;
     padding-top: 40px;
     font-family: 'Gabriela'serif;
@@ -119,13 +131,14 @@ p{
   }
   
   .images{
-    /* height: 33vh; */
+   
     width: 100% ;
     backface-visibility: hidden;
     transition: .2s ease;
    
 
   }
+  /* portfolio section */
   .portfolio{
     position: relative;
   }
@@ -137,8 +150,7 @@ p{
     left: 0;
     right: 0;
     z-index: 0;
-    /* height: 33vh;
-    width: 100% ; */
+    width: 100% ; 
     opacity: 0;
     transition: .2s ease;
     background-color: grey;
@@ -170,6 +182,7 @@ p{
     opacity: 0.9;
      background-color: rgba(255, 255, 255, 0.456); 
   } 
+  /* contact section */
   .contact{
     margin-top: 50px;
     background-image: url(/images/contact_image.jpg);
@@ -185,6 +198,7 @@ p{
     color:#fff;
     font-weight: 500;
     font-size: 25px;
+    padding: 10px;
   }
   #button{
     color: rgb(26, 23, 23);
@@ -194,29 +208,17 @@ p{
     margin-top: 20px;
     width: 18%;
   }
-  #design{
-    display: none;
-  }
- 
-  #development{
-    display: none;
-  }
-  #product{
-    display: none;
-  }
-  #name :hover{
-    background-color: white;
-  }
-
-  
-  .form-group{
+ .form-group{
     box-sizing: border-box;
     font-size: 30px;
     
    
   }
-  input[type="text"], input[type="email"]{
+  input[type="text"]{
     background-color: transparent;
+  }
+   input[type="email"]{
+     background-color: transparent; 
     
   
   }
