@@ -16,7 +16,7 @@ Abit of javascript functions used to alert information after the user keys in so
 The page basically runs by use of HTML , CSS, JAVASCRIPT and JQUERY.
 
 # LINKS
-
+https://Nyagahisaac.github.io/DELANI-STUDIO/
 # CONTACT
 Nyagah isaac
 Email:nyagahisaac@gmail.com
